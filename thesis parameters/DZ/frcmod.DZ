@@ -1,0 +1,223 @@
+remark goes here
+MASS
+O2 16.000 0.434 same as o
+P 30.970 1.538 same as p4
+OS 16.000 0.465 same as os
+CI 12.010 0.000 ZO taken from parmbsc0
+H1 1.008 0.135 same as hc
+CT 12.010 0.878 same as c3
+CE 12.001 0.000 ZO taken from parmbsc1
+OH 16.000 0.465 same as oh
+HO 1.008 0.135 same as ho
+HC 1.008 0.135 same as hc
+H2 1.008 0.135 same as hc
+CM 12.010 0.360 same as c2
+H4 1.008 0.135 same as ha
+C 12.010 0.616 same as c
+O 16.000 0.434 same as o
+N* 14.010 0.530 same as na
+H 1.008 0.161 same as hn
+CA 12.010 0.360 same as c2
+N2 14.010 0.530 same as n3
+o  16.00  0.434 Oxygen with one connected atom
+no 14.01  0.530 Nitro N 
+
+BOND
+O2-P 525.00 1.480 ZO taken from parm10
+P -OS 230.00 1.610 ZO taken from parm10
+OS-CI 320.00 1.410 parmbsc0
+CI-H1 340.00 1.090 parmbsc0
+CI-CT 310.00 1.526 parmbsc0 same as CI-CT
+CT-OS 320.00 1.410 ZO taken from parm10
+CT-H1 340.00 1.090 ZO taken from parm10
+CT-CE 310.00 1.526 parmbsc1 same as CE-CT
+CE-OH 320.0 1.410 parmbsc1
+CE-H1 340.00 1.090 parmbsc1
+OH-HO 553.0 0.960 ZO taken from parm10 same as HO-OH
+CT-HC 340.00 1.090 ZO taken from parm10
+CT-CT 310.00 1.526 ZO taken from parm10
+CT-H2 340.00 1.090 ZO taken from parm10
+CT-CM 317.0 1.510 ZO taken from parm10 CM-CT
+CM-CM 549.0 1.350 ZO taken from parm10 CM-CT
+CM-C 410.0 1.444 ZO taken from parm10 C -CM
+CM-H4 367.0 1.080 ZO taken from parm10
+C -O 570.00 1.229 ZO same as C-O in parm10
+C -N* 424.00 1.383 ZO taken from parm10
+N*-H 434.0 1.010 ZO same as H -N* in parm10
+N*-CA 397.40 1.353 ZO lenght taken from NWchem
+CA-N2 481.00 1.340 ZO same as CA-N2 in parm10
+CA-CM 427.0 1.433 ZO taken from parm10
+N2-H 434.00 1.010 ZO same as N2-H in parm10
+CM-no 364.20 1.423 ZO lenght taken from NWchem
+no-o 550.00 1.214 ZO force constant taken between C-O and P-O2 and lenght taken from NWChem
+
+ANGLE
+O2-P -O2 140.000 119.900 ZO taken from parm10
+O2-P -OS 100.000 108.230 ZO taken from parm10
+P -OS-CI 100.000 120.500 parmbsc0 P -OS-CI
+OS-CI-H1 50.000 109.500 parmbsc0 OS-CI-H1
+OS-CI-CT 50.000 109.500 parmbsc0 OS-CI-CT
+CI-CT-OS 50.000 109.500 parmbsc0 CI-CT-OS
+CI-CT-H1 50.0 109.50 parmbsc0 CI-CT-H1
+CI-CT-CE 40.0 109.50 parmbsc1 CI-CT-CE
+H1-CI-H1 35.000 109.500 parmbsc0
+H1-CI-CT 50.000 109.500 parmbsc0 H1-CI-CT
+CT-OS-CT 60.000 109.500 ZO taken from parm10
+CT-CE-OH 50.0 109.50 parmbsc1
+CT-CE-H1 50.0 109.50 parmbsc1
+CT-CE-CT 40.000 109.500 parmbsc1
+OS-CT-H1 50.000 109.500 ZO taken from parm10 H1-CT-OS
+OS-CT-CE 50.000 109.500 parmbsc1 CE-CT-OS
+OS-CT-CT 50.000 109.500 ZO taken from parm10 CT-CT-OS
+OS-CT-H2 50.000 109.500 ZO taken from parm10 H2-CT-OS
+OS-CT-CM 50.0 109.50 ZO taken from parm10 CM-CT-OS
+H1-CT-CE 50.000 109.500 parmbsc1
+CE-OH-HO 55.0 108.50 parmbsc1
+CE-CT-HC 50.0 109.50 parmbsc1
+CE-CT-CT 40.0 109.50 parmbsc1
+OH-CE-H1 50.0 109.50 parmbsc1
+CT-CT-H2 50.000 109.500 ZO taken from parm10 CT-CT-H2
+CT-CT-CM 63.0 111.00 ZO taken from parm10 CM-CT-CT
+HC-CT-HC 35.000 109.500 ZO taken from parm10
+HC-CT-CT 50.000 109.500 ZO taken from parm10
+CT-CM-CM 64.060 123.625 ZO angle taken from NWchem
+CT-CM-C 70.0 119.70 ZO taken from parm10 C -CM-CT
+H2-CT-CM 46.990 108.837 ZO angle taken from NWchem
+CM-CM-H4 50.0 119.70 ZO taken from parm10
+CM-CM-CM 67.940 122.666 ZO angle taken from NWchem
+CM-C -O 80.0 125.30 ZO taken from parm10
+CM-C -N* 70.0 114.834 ZO parm10 CM-N*-CT correct one not found and angle taken from NWchem
+CM-CM-C 63.0 120.70 ZO taken from parm10 C -CM-CM
+CM-CM-CA 63.0 117.00 ZO taken from parm10 CA-CM-CM
+CM-CM-no 70.070 118.913 ZO angle taken from NWchem
+C -N*-H 50.0 119.20 ZO taken from parm10
+C -N*-CA 70.0 121.60 ZO parm10 C -N*-CM correct one not found
+O -C -N* 80.0 120.90 ZO taken from parm10 N*-C -O
+N*-CA-N2 73.151 115.438 ZO angle taken from NWchem
+N*-CA-CM 69.140 116.557 ZO angle taken from NWchem
+H -N*-CA 47.300 119.057 ZO angle taken from NWchem
+CA-N2-H 50.0 120.00 ZO taken from parm10
+CA-CM-no 70.070 121.596 ZO angle taken from NWchem
+N2-CA-CM 70.0 120.10 ZO taken from parm10
+H -N2-H 35.000 120.000 ZO taken from parm10
+CM-no-o 70.130 118.698 ZO angle taken from NWchem
+o -no-o 116.649 125.080 ZO taken from gaff angle from NWchem
+
+DIHE
+O2-P -OS-CI 3 0.750 0.000 3.000 ZO taken from parm10 X -OS-P -X
+P -OS-CI-H1 3 1.150 0.000 3.000 parmbsc0 X -CI-OS-X
+P -OS-CI-CT 3 1.150 0.000 3.000 parmbsc0 X -CI-OS-X
+OS-CI-CT-OS 9 1.400 0.000 3.000 parmbsc0 X -CI-CT-X
+OS-CI-CT-H1 1 0.250 0.000 1.000 parmbsc0 H1-CT-CI-OS
+OS-CI-CT-CE 1 1.178 190.976 -1.000 parmbsc1 CE-CT-CI-OS
+OS-CI-CT-CE 1 0.092 295.632 -2.000 parmbsc1 CE-CT-CI-OS
+OS-CI-CT-CE 1 0.962 348.095 3.000 parmbsc1 CE-CT-CI-OS
+CI-CT-OS-CT 1 0.383 0.000 -3.000 parmbsc0 CT-OS-CT-CI
+CI-CT-CE-OH 9 1.400 0.0 3.0 parmbsc1 X -CE-CT-X
+CI-CT-CE-H1 9 1.400 0.000 3.000 parmbsc1 X -CE-CT-X
+CI-CT-CE-CT 9 1.400 0.000 3.000 parmbsc1 X -CE-CT-X
+H1-CI-CT-OS 1 0.250 0.000 1.000 parmbsc0 H1-CI-CT-OS
+H1-CI-CT-H1 9 1.400 0.000 3.000 parmbsc0 X -CI-CT-X
+H1-CI-CT-CE 9 1.400 0.000 3.000 parmbsc0 X -CI-CT-X
+CT-OS-CT-CT 1 0.383 0.000 -3.000 ZO taken from parm10 CT-CT-OS-CT
+CT-OS-CT-CT 1 0.100 180.000 2.000 ZO taken from parm10 CT-CT-OS-CT
+CT-OS-CT-H2 3 1.150 0.000 3.000 ZO taken from parm10 X -CT-OS-X
+CT-OS-CT-CM 3 1.150 0.000 3.000 ZO taken from parm10 X -CT-OS-X
+CT-CE-OH-HO 1 1.079933 297.76503 -1.0 parmbsc1 HO-OH-CE-CT epsilon, 3'term
+CT-CE-OH-HO 1 0.319017 200.61045 -2.0 parmbsc1 HO-OH-CE-CT epsilon, 3'term
+CT-CE-OH-HO 1 0.054836 151.62658 3.0 parmbsc1 HO-OH-CE-CT epsilon, 3'term
+CT-CE-CT-HC 9 1.400 0.0 3.0 parmbsc1 X -CE-CT-X
+CT-CE-CT-CT 1 1.2 38.45 -1.0 parmbsc1 CT-CT-CE-CT
+CT-CE-CT-CT 1 0.9 -2.23 3.0 parmbsc1 CT-CT-CE-CT
+OS-CT-CE-OH 1 0.144 0.0 -3.0 parmbsc1 OH-CE-CT-OS
+OS-CT-CE-OH 1 1.175 0.0 2.0 parmbsc1 OH-CE-CT-OS
+OS-CT-CE-H1 9 1.400 0.0 3.0 parmbsc1 X -CE-CT-X
+OS-CT-CE-CT 9 1.400 0.0 3.0 parmbsc1 X -CE-CT-X
+OS-CT-CT-CE 9 1.40 0.0 3. ZO parm10 X -CT-CT-X
+OS-CT-CT-HC 1 0.000 0.000 -3.000 ZO taken from parm10 HC-CT-CT-OS
+OS-CT-CT-HC 1 0.250 0.000 1.000 ZO taken from parm10 HC-CT-CT-OS
+OS-CT-CM-CM 6 0.00 0.0 3. ZO taken from parm10 X -CM-CT-X
+OS-CT-CM-C 6 0.00 0.0 3. ZO taken from parm10 X -CM-CT-X
+H1-CT-OS-CT 3 1.150 0.000 3.000 ZO taken from parm10 X -CT-OS-X
+H1-CT-CE-OH 9 1.400 0.0 3.0 parmbsc1 X -CE-CT-X
+H1-CT-CE-H1 9 1.400 0.0 3.0 parmbsc1 X -CE-CT-X
+H1-CT-CE-CT 9 1.400 0.0 3.0 parmbsc1 X -CE-CT-X
+CE-CT-OS-CT 1 0.3833 0.0 -3.0 parmbsc1
+CE-CT-OS-CT 1 0.100 180.0 2.0 parmbsc1
+CE-CT-CT-H2 9 1.40 0.0 3. ZO parm10 X -CT-CT-X
+CE-CT-CT-CM 9 1.40 0.0 3. ZO parm10 X -CT-CT-X
+OH-CE-CT-HC 9 1.400 0.0 3.0 parmbsc1 X -CE-CT-X
+OH-CE-CT-CT 9 1.400 0.0 3.0 parmbsc1 X -CE-CT-X
+HO-OH-CE-H1 3 0.500 0.0 3.0 parmbsc1 X -CE-OH-X
+H1-CE-CT-HC 9 1.400 0.0 3.0 parmbsc1 X -CE-CT-X
+H1-CE-CT-CT 9 1.400 0.0 3.0 parmbsc1 X -CE-CT-X
+CT-CT-CM-CM 6 0.00 0.0 3. ZO parm10 X -CM-CT-X
+CT-CT-CM-C 6 0.00 0.0 3. ZO parm10 X -CM-CT-X
+HC-CT-CT-H2 9 1.400 0.000 3.000 ZO taken from parm10 X -CT-CT-X
+HC-CT-CT-CM 9 1.40 0.0 3. ZO parm10 X -CT-CT-X
+CT-CM-CM-H4 4 26.60 180.0 2. ZO parm10 X -CM-CM-X
+CT-CM-CM-CM 4 26.60 180.0 2. ZO parm10 X -CM-CM-X
+CT-CM-C -O 4 8.70 180.0 2. ZO parm10 X -C -CM-X
+CT-CM-C -N* 4 8.70 180.0 2. ZO parm10 X -C -CM-X
+H2-CT-CM-CM 6 0.00 0.0 3. ZO parm10 X -CM-CT-X
+H2-CT-CM-C 6 0.00 0.0 3. ZO parm10 X -CM-CT-X
+CM-CM-CM-CA 4 26.60 180.0 2. ZO parm10 X -CM-CM-X
+CM-CM-CM-no 4 26.60 180.0 2. ZO parm10 X -CM-CM-X
+CM-C -N*-H 4 5.80 180.0 2. ZO parm10 X -C -N*-X
+CM-C -N*-CA 4 5.80 180.0 2. ZO parm10 X -C -N*-X
+CM-CM-C -O 1 2.175 180.0 -2. ZO parm10 CM-CM-C -O
+CM-CM-C -O 1 0.30 0.0 3. ZO parm10 CM-CM-C -O
+CM-CM-C -N* 4 8.70 180.0 2. ZO parm10 X -C -CM-X
+CM-CM-CA-N* 4 10.20 180.0 2. ZO parm10 X -CA-CM-X
+CM-CM-CA-N2 4 10.20 180.0 2. ZO parm10 X -CA-CM-X
+CM-CM-no-o 1 0.750 180.000 2.000 same as X -c2-no-X
+H4-CM-CM-C 4 26.60 180.0 2. ZO parm10 X -CM-CM-X
+H4-CM-CM-CA 4 26.60 180.0 2. ZO parm10 X -CM-CM-X
+H4-CM-CM-no 4 26.60 180.0 2. ZO parm10 X -CM-CM-X
+C -CM-CM-CM 4 26.60 180.0 2. ZO parm10 X -CM-CM-X
+C -N*-CA-N2 1 0.625 180.000 2.000 same as X -c2-na-X
+C -N*-CA-CM 1 0.625 180.000 2.000 same as X -c2-na-X
+O -C -N*-H 4 5.80 180.0 2. ZO parm10 X -C -N*-X
+O -C -N*-CA 4 5.80 180.0 2. ZO parm10 X -C -N*-X
+N*-CA-N2-H 4 9.60 180.0 2. ZO parm10 X -CA-N2-X
+N*-CA-CM-no 4 10.20 180.0 2. ZO parm10 X -CA-CM-X
+H -N*-CA-N2 1 0.625 180.000 2.000 same as X -c2-na-X
+H -N*-CA-CM 1 0.625 180.000 2.000 same as X -c2-na-X
+CA-CM-no-o 1 0.750 180.000 2.000 same as X -c2-no-X
+N2-CA-CM-no 4 10.20 180.0 2. ZO parm10 X -CA-CM-X
+H -N2-CA-CM 4 9.60 180.0 2. ZO parm10 X -CA-N2-X
+
+IMPROPER
+C -CM-CM-CT   5.6  180.   2.0 ZO parm10 C -CM-CM-CT
+CM-CM-CM-H4   5.6  180.0  2.0 ZO 5.6
+CM-N*-C -O    5.6  180.0  2.0 ZO 5.6
+C -CA-N*-H    5.6  180.0  2.0 ZO 5.6
+CM-N*-CA-N2   5.6  180.0  2.0 ZO 5.6
+CA-H -N2-H    5.6  180.0  2.0 ZO 5.6
+CA-CM-CM-no   5.6  180.0  2.0 ZO 5.6
+CM-o -no-o    5.6  180.0  2.0 ZO 5.6
+
+NONBON
+O2  1.6612  0.2100 same as o
+P   2.1000  0.2000 same as p4
+OS  1.6837  0.1700 same as os
+CI  1.9080  0.1094 ZO parmbsc0
+H1  1.3870  0.0157 ZO parm10 H1
+CT  1.9080  0.1094 same as c3
+CE  1.9080  0.1094 ZO parmbsc1
+OH  1.7210  0.2104 same as oh
+HO  0.0000  0.0000 same as ho
+HC  1.4870  0.0157 same as hc
+H2  1.2870  0.0157 ZO parm10 H2
+CM  1.9080  0.0860 ZO parm14 CM
+H4  1.4090  0.0150 ZO parm10 H4
+C   1.9080  0.0860 same as c
+O   1.6612  0.2100 same as o
+N*  1.8240  0.1700 ZO parm14 N*
+H   0.6000  0.0157 ZO parm10 H
+o   1.6612  0.2100             OPLS
+no  1.8240  0.1700             OPLS
+
+
+
+

@@ -1,0 +1,231 @@
+remark goes here
+MASS
+O 16.000 0.434 same as o
+C 12.010 0.616 same as c
+NC 14.010 0.530 same as n2
+CA 12.010 0.360 same as c2
+N2 14.010 0.530 same as n3
+H 1.008 0.161 same as hn
+CB 12.010 0.360 same as c2
+N* 14.010 0.530 same as na
+CK 12.010 0.360 same as c2
+H5 1.008 0.135 same as ha
+CT 12.010 0.878 same as c3
+OS 16.000 0.465 same as os
+H2 1.008 0.135 same as hc
+HC 1.008 0.135 same as hc
+CE 12.001 parmbsc1
+H1 1.008 0.135 same as hc
+CI 12.010 parmbsc0
+P 30.970 1.538 same as p4
+O2 16.000 0.434 same as o
+
+BOND
+O -C 570.00 1.229 ZO same as C-O in parm10
+C -NC 457.00 1.358 ZO same as C-NC in parm10
+C -N* 424.00 1.383 ZO taken from parm10
+NC-CA 483.00 1.339 ZO same as CA-NC in parm10
+CA-N2 481.00 1.340 ZO same as CA-N2 in parm10
+N2-H 434.00 1.010 ZO same as N2-H in parm10
+CB-NC 461.00 1.354 ZO same as CB-NC in parm10
+CB-N* 436.00 1.374 ZO same as CB-N* in parm10
+N*-CK 440.00 1.371 ZO taken from parm10
+CK-H5 367.00 1.080 ZO taken from parm10
+CK-CK 419.80 1.428 same as cc-cc
+N*-CT 337.00 1.475 ZO taken from parm10
+CT-OS 320.00 1.410 ZO taken from parm10
+CT-H2 340.00 1.090 ZO taken from parm10
+CT-CT 310.00 1.526 ZO taken from parm10
+CT-HC 340.00 1.090 ZO taken from parm10
+CT-CE 310.00 1.526 parmbsc1 same as CE-CT
+CE-OS 320.00 1.410 parmbsc1 same as OS-CE
+CE-H1 340.00 1.090 parmbsc1
+CT-H1 340.00 1.090 ZO taken from parm10
+CT-CI 310.00 1.526 parmbsc0 same as CI-CT
+CI-H1 340.00 1.090 parmbsc0
+CI-OS 320.00 1.410 parmbsc0
+OS-P 230.00 1.610 ZO taken from parm10
+P -O2 525.00 1.480 ZO taken from parm10
+
+ANGLE
+O -C -NC 80.000 122.500 ZO taken from parm10 NC-C -O
+O -C -N* 80.000 120.900 ZO taken from parm10 N*-C -O
+C -NC-CA 70.000 120.500 ZO taken from parm10
+C -N*-CB 70.000 121.600 ZO taken from parm10 C -N*-CM
+C -N*-CK 70.000 121.600 ZO taken from parm10 C -N*-CM
+NC-C -N* 70.000 118.600 ZO taken from parm10 N*-C -NC
+NC-CA-N2 70.000 119.300 ZO taken from parm10 N2-CA-NC
+NC-CA-NC 69.850 128.740 same as nc-ca-nc
+CA-N2-H 50.000 120.000 ZO taken from parm10
+CA-NC-CB 70.000 112.200 ZO taken from parm10
+H -N2-H 35.000 120.000 ZO taken from parm10
+NC-CB-N* 70.000 126.200 ZO taken from parm10 N*-CB-NC
+CB-N*-CK 70.000 105.400 ZO taken from parm10
+CB-N*-CT 70.000 125.800 ZO taken from parm10
+N*-CB-N* 70.000 113.900 ZO taken from parm10 N*-C5-NB
+N*-CK-H5 50.000 123.050 ZO taken from parm10 H5-CK-N*
+N*-CK-CK 86.536 117.770 ZO taken from gaff2 cc-cc-na
+CK-CK-H5 47.634 121.070 ZO taken from gaff2 cc-cc-ha
+CK-N*-CT 70.000 128.800 ZO taken from parm10
+N*-CT-OS 50.000 109.500 ZO taken from parm10 OS-CT-N*
+N*-CT-H2 50.000 109.500 ZO taken from parm10 H2-CT-N*
+N*-CT-CT 50.000 109.500 ZO taken from parm10 CT-CT-N*
+CT-OS-CT 60.000 109.500 ZO taken from parm10
+CT-CT-HC 50.000 109.500 ZO taken from parm10
+CT-CT-CE 40.000 109.500 parmbsc1 CE-CT-CT
+OS-CT-H2 50.000 109.500 ZO taken from parm10 H2-CT-OS
+OS-CT-CT 50.000 109.500 ZO taken from parm10 CT-CT-OS
+OS-CT-CE 50.000 109.500 parmbsc1 CE-CT-OS
+OS-CT-H1 50.000 109.500 ZO taken from parm10 H1-CT-OS
+OS-CT-CI 50.000 109.500 parmbsc0 CI-CT-OS
+H2-CT-CT 50.000 109.500 ZO taken from parm10 CT-CT-H2
+CT-CE-OS 50.000 109.500 parmbsc1 OS-CE-CT
+CT-CE-H1 50.000 109.500 parmbsc1 H1-CE-CT
+CT-CE-CT 40.000 109.500 parmbsc1
+HC-CT-HC 35.000 109.500 ZO taken from parm10
+HC-CT-CE 50.000 109.500 parmbsc1 CE-CT-HC
+CE-CT-H1 50.000 109.500 parmbsc1
+CE-CT-CI 40.000 109.500 parmbsc1 CI-CT-CE
+OS-CE-H1 50.000 109.500 parmbsc1
+CT-CI-H1 50.000 109.500 parmbsc0 H1-CI-CT
+CT-CI-OS 50.000 109.500 parmbsc0 OS-CI-CT
+H1-CT-CI 50.000 109.500 parmbsc0 CI-CT-H1
+CI-OS-P 100.000 120.500 parmbsc0 P -OS-CI
+H1-CI-H1 35.000 109.500 parmbsc0
+H1-CI-OS 50.000 109.500 parmbsc0 OS-CI-H1
+OS-P -O2 100.000 108.230 ZO taken from parm10 O2-P -OS
+O2-P -O2 140.000 119.900 ZO taken from parm10
+
+DIHE
+O -C -NC-CA 2 8.000 180.000 2.000 ZO taken from parm10 X -C -NC-X
+O -C -N*-CB 4 5.800 180.000 2.000 ZO taken from parm10 X -C -N*-X
+O -C -N*-CB 4 5.800 180.000 2.000 ZO taken from parm10 X -C -N*-X
+O -C -N*-CK 4 5.800 180.000 2.000 ZO taken from parm10 X -C -N*-X
+O -C -N*-CK 4 5.800 180.000 2.000 ZO taken from parm10 X -C -N*-X
+C -NC-CA-N2 4 14.500 180.000 2.000 ZO taken from parm10 X -CA-CN-X
+C -NC-CA-NC 4 14.500 180.000 2.000 ZO taken from parm10 X -CA-CN-X
+C -N*-CB-NC 4 6.600 180.000 2.000 ZO taken from parm10 X -CB-N*-X
+C -N*-CB-N* 4 6.600 180.000 2.000 ZO taken from parm10 X -CB-N*-X
+C -N*-CK-H5 4 6.800 180.000 2.000 ZO taken from parm10 X -CK-N*-X
+C -N*-CK-CK 4 6.800 180.000 2.000 ZO taken from parm10 X -CK-N*-X
+NC-C -N*-CB 4 5.800 180.000 2.000 ZO taken from parm10 X -C -N*-X
+NC-C -N*-CB 4 5.800 180.000 2.000 ZO taken from parm10 X -C -N*-X
+NC-C -N*-CK 4 5.800 180.000 2.000 ZO taken from parm10 X -C -N*-X
+NC-C -N*-CK 4 5.800 180.000 2.000 ZO taken from parm10 X -C -N*-X
+NC-CA-N2-H 4 9.600 180.000 2.000 ZO taken from parm10 X -CA-N2-X
+NC-CA-NC-CB 2 9.600 180.000 2.000 ZO taken from parm10 X -CA-NC-X
+CA-NC-C -N* 2 8.000 180.000 2.000 ZO taken from parm10 X -C -NC-X
+CA-NC-CB-N* 2 8.300 180.000 2.000 ZO taken from parm10 X -CB-NC-X
+N2-CA-NC-CB 4 14.500 180.000 2.000 ZO taken from parm10 X -CA-CN-X
+NC-CB-N*-CK 4 6.600 180.000 2.000 ZO taken from parm10 X -CB-N*-X
+NC-CB-N*-CT 4 6.600 180.000 2.000 ZO taken from parm10 X -CB-N*-X
+CB-N*-CK-H5 4 6.800 180.000 2.000 ZO taken from parm10 X -CK-N*-X
+CB-N*-CK-CK 4 6.800 180.000 2.000 ZO taken from parm10 X -CK-N*-X
+CB-N*-CT-OS 1 0.000 000.000 -2.000 ZO taken from parm10 OS-CT-N*-CK
+CB-N*-CT-OS 1 2.500 0.000 1.000 ZO taken from parm10 OS-CT-N*-CK
+CB-N*-CT-H2 6 0.000 0.000 2.000 ZO taken from parm10 X -CT-N*-X
+CB-N*-CT-CT 6 0.000 0.000 2.000 ZO taken from parm10 X -CT-N*-X
+N*-CB-N*-CK 4 6.600 180.000 2.000 ZO taken from parm10 X -CB-N*-X
+N*-CB-N*-CT 4 6.600 180.000 2.000 ZO taken from parm10 X -CB-N*-X
+N*-CK-CK-H5 4 16.000 180.000 2.000 ZO taken from gaff2 X -cc-cc-X
+N*-CK-CK-N* 4 16.000 180.000 2.000 ZO taken from gaff2 X -cc-cc-X
+CK-CK-N*-CT 4 6.800 180.000 2.000 ZO taken from parm10 X -CK-N*-X
+H5-CK-CK-H5 4 16.000 180.000 2.000 ZO taken from gaff2 X -cc-cc-X
+CK-N*-CT-OS 1 0.000 000.000 -2.000 ZO taken from gaff2 OS-CT-N*-CK
+CK-N*-CT-OS 1 2.500 0.000 1.000 ZO taken from gaff2 OS-CT-N*-CK
+CK-N*-CT-H2 6 0.000 0.000 2.000 ZO taken from parm10 X -CT-N*-X
+CK-N*-CT-CT 6 0.000 0.000 2.000 ZO taken from parm10 X -CT-N*-X
+H5-CK-N*-CT 4 6.800 180.000 2.000 ZO taken from parm10 X -CK-N*-X
+N*-CT-OS-CT 1 0.383 0.000 -3.000 ZO taken from parm10 CT-OS-CT-N*
+N*-CT-OS-CT 1 0.650 0.000 2.000 ZO taken from parm10 CT-OS-CT-N*
+N*-CT-CT-HC 9 1.400 0.000 3.000 ZO taken from parm10 X -CT-CT-X
+N*-CT-CT-CE 9 1.400 0.000 3.000 ZO taken from parm10 X -CT-CT-X
+CT-OS-CT-CE 1 0.383 0.000 -3.000 parmbsc1 CE-CT-OS-CT
+CT-OS-CT-CE 1 0.100 180.000 2.000 parmbsc1 CE-CT-OS-CT
+CT-OS-CT-H1 3 1.150 0.000 3.000 ZO taken from parm10 X -CT-OS-X
+CT-OS-CT-CI 1 0.383 0.000 -3.000 parmbsc0 CT-OS-CT-CI
+CT-CT-CE-OS 9 1.400 0.000 3.000 parmbsc1 X -CE-CT-X
+CT-CT-CE-H1 9 1.400 0.000 3.000 parmbsc1 X -CE-CT-X
+CT-CT-CE-CT 1 1.200 38.450 -1.000 parmbsc1 CT-CT-CE-CT
+CT-CT-CE-CT 1 0.900 -2.230 3.000 parmbsc1 CT-CT-CE-CT
+OS-CT-CT-HC 1 0.000 0.000 -3.000 ZO taken from parm10 HC-CT-CT-OS
+OS-CT-CT-HC 1 0.250 0.000 1.000 ZO taken from parm10 HC-CT-CT-OS
+OS-CT-CT-CE 9 1.400 0.000 3.000 ZO taken from parm10 X -CT-CT-X
+OS-CT-CE-CT 1 1.200 322.410 1.000 parmbsc1 CT-CE-CT-OS
+OS-CT-CE-OS 1 0.144 0.000 -3.000 parmbsc1 OS-CE-CT-OS
+OS-CT-CE-OS 1 1.175 0.000 2.000 parmbsc1 OS-CE-CT-OS
+OS-CT-CE-H1 9 1.400 0.000 3.000 parmbsc1 X -CE-CT-X
+OS-CT-CI-H1 1 0.250 0.000 1.000 parmbsc0 H1-CI-CT-OS
+OS-CT-CI-OS 9 1.400 0.000 3.000 parmbsc0 X -CI-CT-X
+H2-CT-OS-CT 3 1.150 0.000 3.000 ZO taken from parm10 X -CT-OS-X
+H2-CT-CT-HC 9 1.400 0.000 3.000 ZO taken from parm10 X -CT-CT-X
+H2-CT-CT-CE 9 1.400 0.000 3.000 ZO taken from parm10 X -CT-CT-X
+CT-CT-OS-CT 1 0.383 0.000 -3.000 ZO taken from parm10 CT-CT-OS-CT
+CT-CT-OS-CT 1 0.100 180.000 2.000 ZO taken from parm10 CT-CT-OS-CT
+CT-CE-CT-H1 9 1.400 0.000 3.000 parmbsc1 X -CE-CT-X
+CT-CE-CT-CI 9 1.400 0.000 3.000 parmbsc1 X -CE-CT-X
+HC-CT-CE-OS 9 1.400 0.000 3.000 parmbsc1 X -CE-CT-X
+HC-CT-CE-H1 9 1.400 0.000 3.000 parmbsc1 X -CE-CT-X
+HC-CT-CE-CT 9 1.400 0.000 3.000 parmbsc1 X -CE-CT-X
+CE-CT-CI-H1 9 1.400 0.000 3.000 parmbsc0 X -CI-CT-X
+CE-CT-CI-OS 1 1.178 190.976 -1.000 parmbsc1 CE-CT-CI-OS
+CE-CT-CI-OS 1 0.092 295.632 -2.000 parmbsc1 CE-CT-CI-OS
+CE-CT-CI-OS 1 0.962 348.095 3.000 parmbsc1 CE-CT-CI-OS
+OS-CE-CT-H1 9 1.400 0.000 3.000 parmbsc1 X -CE-CT-X
+OS-CE-CT-CI 9 1.400 0.000 3.000 parmbsc1 X -CE-CT-X
+H1-CE-CT-H1 9 1.400 0.000 3.000 parmbsc1 X -CE-CT-X
+H1-CE-CT-CI 9 1.400 0.000 3.000 parmbsc1 X -CE-CT-X
+CT-CI-OS-P 3 1.150 0.000 3.000 parmbsc0 X -CI-OS-X
+H1-CT-CI-H1 9 1.400 0.000 3.000 parmbsc0 X -CI-CT-X
+H1-CT-CI-OS 1 0.250 0.000 1.000 parmbsc0 H1-CT-CI-OS
+CI-OS-P -O2 3 0.750 0.000 3.000 ZO taken from parm10 X -OS-P -X
+H1-CI-OS-P 3 1.150 0.000 3.000 parmbsc0 X -CI-OS-X
+
+IMPROPER
+N*-NC-C -O   10.5  180.0 2.0 ZO taken from parm10 X -X -C -O
+N2-NC-CA-NC  5.6   180.0 2.0 Using default value
+CA-H -N2-H   5.6   180.0 2.0 Using default value
+N*-N*-CB-NC  5.6   180.0 2.0 Using default value
+C -CB-N*-CK  5.6   180.0 2.0 Using default value
+CK-H5-CK-N*  5.6   180.0 2.0 Using default value
+CB-CK-N*-CT  5.6   180.0 2.0 ZO taken from parm10 CB-CK-N*-CT
+N*-CB-CB-NC  5.6   180.0 2.0 added after tleap complain
+NB-C-CB-CB   5.6   180.0 2.0 added after tleap complain
+N*-CB-CB-NC  5.6   180.0 2.0 added after tleap complain
+NB-C-CB-CB   5.6   180.0 2.0 added after tleap complain
+NB-CA-CB-CB  5.6   180.0 2.0 added after tleap complain
+
+NONBON
+O 1.6612 0.2100 same as o in parm10
+C 1.9080 0.0860 same as c in parm10
+NC 1.8240 0.1700 same as nc in parm14
+CA 1.9080 0.0860 same as ca in parm14
+N2 1.8240 0.1700 same as nh in parm14
+H 0.6000 0.0157 same as hn in parm14
+CB 1.9080 0.0860 same as cc in parm14
+N* 1.8240 0.1700 same as N* in parm14
+CK 1.9080 0.0860 same as CK in parm14
+H5 1.3590 0.0150 ZO taken from parm10 H5
+CT 1.9080 0.1094 same as c3 in parm10
+OS 1.6837 0.1700 same as os in parm10
+H2 1.2870 0.0157 ZO taken from parm10 H2
+HC 1.4870 0.0157 same as hc in parm10
+CE 1.9080 0.1094 parmbsc1
+H1 1.3870 0.0157 ZO taken from parm10 H1
+CI 1.9080 0.1094 parmbsc0
+P 2.1000 0.2000 same as P in parm10
+O2 1.6612 0.2100 same as o in parm10
+
+
+
+
+
+
+
+
+
+
+
+
+
+

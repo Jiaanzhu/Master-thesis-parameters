@@ -1,0 +1,47 @@
+
+logfile q4md-forcefieldtools.log
+
+alias q quit
+alias e edit
+alias c charge
+
+verbosity 2
+
+addAtomTypes {
+         { "C"   "C"   "sp2" }
+         { "CE"  "C"   "sp3" }
+         { "CI"  "C"   "sp3" }
+         { "CA"  "C"   "sp2" }
+         { "CB"  "C"   "sp2" }
+         { "CT"  "C"   "sp3" }
+         { "CK"  "C"   "sp2" }
+         { "H"   "H"   "sp3" }
+         { "H1"  "H"   "sp3" }
+         { "H2"  "H"   "sp3" }
+         { "H5"  "H"   "sp3" }
+         { "HC"  "H"   "sp3" }
+         { "HO"  "H"   "sp3" }
+         { "N*"  "N"   "sp2" }
+         { "N2"  "N"   "sp2" }
+         { "NC"  "N"   "sp2" }
+         { "O"   "O"   "sp2" }
+         { "O2"  "O"   "sp2" }
+         { "OH"  "O"   "sp3" }
+         { "OS"  "O"   "sp3" }
+         { "P"   "P"   "sp3" }
+}
+
+
+frcmod_DP = loadAmberParams DP_ref/frcmod.DP
+
+DP = loadmol3 DP_ref/Mol_MM/INTER/CT-A_m1-c1_m2-c1.mol2
+
+DP3 = loadmol3 DP_ref/Mol_MM/INTER/OX-A_m1-c1_m2-c1.mol2
+
+DP5 = loadmol3 DP_ref/Mol_MM/INTER/OY-A_m1-c1_m2-c1.mol2
+
+
+
+
+
+
